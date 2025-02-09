@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@solana/spl-token": "^0.4.12",
     "@solana/web3.js": "^1.98.0",
@@ -18,5 +17,14 @@
     "fs": "^0.0.1-security",
     "node-telegram-bot-api": "^0.66.0",
     "telegraf": "^4.16.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackdevWeb3/SPLtokenmint_bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blackdevWeb3/SPLtokenmint_bot/issues"
+  },
+  "homepage": "https://github.com/blackdevWeb3/SPLtokenmint_bot#readme",
+  "description": ""
 }
