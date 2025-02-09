@@ -169,8 +169,7 @@ bot.onText(/\/balance/, async (msg) => {
     tokenAccounts.value.forEach((account) => {
       const mintAddress = account.account.data.parsed.info.mint;
       const amount = account.account.data.parsed.info.tokenAmount.uiAmount;
-      const symbol = account.account.data.parsed.info.token;
-      tokenMessage += `🔸${symbol} Token: ${mintAddress}\n💰 Balance: ${amount}\n\n`;
+      tokenMessage += `🔸Token Address: ${mintAddress}\n💰 Ammount: ${amount}\n\n`;
     });
 
     bot.sendMessage(chatId, `💰 **Wallet Balance:**\n\n🔹 **SOL Balance:** ${solBalance} SOL\n\n${tokenMessage}`, { parse_mode: "Markdown" });
